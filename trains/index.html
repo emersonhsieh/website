@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Future Metro Maps</title>
+    <meta name="description" content="Metro maps by Emerson Hsieh">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <style>
+body {
+    background-color: #f8f9fa;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create full column */
+.column-half {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.column-half img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Create full column */
+.column-full-heading {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+/* Create full column */
+.column-full {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column-full img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.333%;
+  flex: calc(100% / 3);
+  max-width: 33.333%;
+  max-width: calc(100% / 3);
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column-half {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column-half {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.container {
+  width: auto;
+  max-width: 1000px;
+  padding: 0 15px;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.emersonhsieh.com">Future Metro Maps by Emerson Hsieh</a>
+
+    </nav>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <div class="container" style="padding-top: 36px;">
+        <div class="section">
+          <div class="row">
+            <div class="column-half" >
+              <p>Trains are really cool! I grew up in Taiwan and now live in the San Francisco Bay Area, so I drew some future train maps of both places.</p>
+              <p>Most rail systems in the world have a distance of 1435 mm (4'8.5") between tracks, a distance known as "standard gauge". Both Taiwan and the Bay Area have anomalies as explained below.</p>
+
+            </div>
+            <div class="column-half" style="text-align: center">
+              <img src="https://i.imgur.com/dplAwNc.png"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="padding-top: 24px; padding-bottom: 12px">
+          <div class="column-full-heading">
+            <h3>Rail systems of northern Taiwan and Taipei</h3>
+          </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+            <div class="column-half">
+                <p>
+                  Taiwan is one of the few places in the world where the distance between conventional train tracks is 1067 mm (3'6"). Conventional (non-metro) trains in Taiwan also run on the left instead of the right.
+                </p>
+                <p>
+                  Both of these are legacies of fifty years of Japanese colonial rule from 1895 to the end of World War II in 1945. Taiwan still buys trains from Japan to this day. 
+                </p>
+                <p>                  
+                  The gray lines are narrow gauge lines built by Japan, while the single-file orange line that runs west-to-east is the <a href="https://en.thsrc.com.tw/">Taiwan High Speed Rail</a>, which runs a variant of the <a href="https://en.wikipedia.org/wiki/THSR_700T">Shinkansen 700 Series Train</a>.
+                </p>
+                <p>
+                  The government intially built the high speed rail line to <a href="https://www.railwaygazette.com/nc/news/single-view/view/chinese-agenda.html">European Standards</a> but <a href="http://www.taipeitimes.com/News/front/archives/2000/02/02/0000022474">pulled out</a> in favor of Japanese-built trains, because the <a href="https://www.nytimes.com/2020/07/30/world/asia/lee-teng-hui-dead.html">president</a> at the time wanted closer relations with Japan.
+                </p>
+                <p>
+                  The Danhai light rail in Tamsui (light-red, center-top) is the first of its kind in Taipei. It has <a href="http://www.trsc.com.tw/">Taiwanese rolling stock</a> built in collaboration with the German company <a href="http://voith.com/corp-en/index.html">Voith</a>.
+                </p>
+              </div>
+
+
+              <div class="column-half">
+              <p>
+                Including those under construction and in planning, the rail systems include <a href="https://tip.railway.gov.tw/tra-tip-web/tip?lang=EN_US">conventional heavy rail</a>, high-speed rail, <a href="https://english.metro.taipei/">high</a> and <a href="https://www.tymetro.com.tw/tymetro-new/en/index.php">medium-capacity metro systems</a>, and light rails. 
+              </p>
+
+              <p>
+                Most of the metro lines are human-operated. The only autonomous train systems are the the Wenhu Line (light-brown, center-right) and the Circular Line (yellow).
+              </p>
+
+              <p>
+                The Wenhu line was built by the French conglomerate <a href="https://matra.com/">Matra</a>, but there was a <a href="http://www.taipeitimes.com/News/front/archives/2005/07/24/2003264776">big scandal</a>. The Canadian company <a href="https://www.bombardier.com/en/home.html">Bombardier</a> was later brought in to supply new communication-based train control systems. 
+              </p>
+
+              <p>
+                The Circular Line was built and supplied by the Italian company <a href="https://www.hitachi-rail.com/">Hitachi rail STS</a>. Stations feature art by <a href="https://www.danielburen.com/">Daniel Buren</a> and <a href="https://www.emmanuellemoureaux.com/circular-line">emmanuelle moreaux</a>.
+              </p>
+
+              <p>
+              <i>
+                I wonder if all train lines can be autonomous one day. I think it would be very cool to be the one to build systems that can retrofit any train line to make it run autonomously.
+              </i>
+              </p>
+
+
+              </div>
+              
+            </div>
+
+          <div class="row">
+            <div class="column-full">
+              <img src="https://i.imgur.com/OfkNrgq.png"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/RSVBCcU.png"/>
+                <p>Taoyuan</p>
+            </div>
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/aPD1qUu.png"/>
+              <p>Taipei</p>
+            </div>
+
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/qXnpDsd.png"/>
+              <p>Keelung and Cape Santiago</p>
+            </div>
+          </div>
+
+        <div class="row" style="padding-top: 24px; padding-bottom: 12px">
+          <div class="column-full-heading">
+            <h3>Rail systems of the San Francisco Bay Area</h3>
+          </div>
+        </div>
+
+            <div class="row">
+              <div class="column-half">
+              <p>
+                The San Francisco Bay Area includes conventional heavy rail, high-capacity metro, and light rail. The future <a href="https://hsr.ca.gov/">California High Speed Rail</a> is shown in yellow-orange running from the city to Gilroy.
+              </p>
+
+              <p>
+                The most prominent feature is the <a href="https://bart.gov">Bay Area Rapid Transit</a> (BART). The main BART system has a track gauge of 1676 mm (5'6"). <a href="https://www.kalw.org/post/hey-area-how-width-bart-tracks-affects-your-commute#stream/0">No one knows why</a>. 
+              </p>
+
+              <p>
+                BART was built with unconventional standards, making maintenance difficult. The <a href="https://www.bart.gov/about/projects/cars">newest train cars</a> had to be custom-built by Bombardier.
+              </p>
+
+              <p>
+                In contrast, the <a href="https://www.bart.gov/about/projects/ecc">eBART</a> spur from Pittsburg to Antioch completed in 2018 uses standard equipment from the Swiss company <a href="https://www.stadlerrail.com/en/">Stadler</a>.
+              </p>
+
+              <p>
+                The most prominent feature of BART is the <a href="https://www.sfchronicle.com/chronicle_vault/article/Walking-through-BART-s-Transbay-Tube-The-story-14569436.php">transbay</a> tube that connects San Francisco and the East Bay. Four of the five lines travel through this tube, which makes it very congested during rush hours. There are plans for a second tube, but <a href="https://www.bart.gov/about/projects/transbay">no one knows</a> when it's going to be built.
+              </p>
+                <p>
+                  The city cores of <a href="https://www.sfmta.com/">San Francisco</a>, <a href="https://www.vta.org/">San Jose</a>, and <a href="http://www.sacrt.com/">Sacramento</a> all have modern light rail lines, descendants of streetcars from before the 1920s.
+                </p>
+
+              </div>
+              <div class="column-half">
+                <p>
+                  The newest member of the map below is the <a href="https://www.sonomamarintrain.org/">Sonoma-Marin Area Rail Transit</a> (green, northwest) that runs from Larkspur to Sonoma County airport. It's only one train line so far, but I imagine SMART could go to Oakland one day via a <a href="https://www.sfchronicle.com/bayarea/article/Assemblyman-s-crusade-for-a-new-Richmond-San-14950654.php">new bridge</a>.
+                </p>
+                <p>
+                  The <a href="https://crossbaytransit.com/">Dumbarton rail corridor</a> (teal, crossing the south bay) connects Redwood City and Hayward but hasn't been operational for over 80 years.
+                </p>
+                </p>The line passes Facebook's Menlo Park HQ within walking distance, and Facebook agreed to <a href="https://sanfrancisco.cbslocal.com/2019/02/28/facebook-2-billion-restore-dumbarton-rail-bridge/">take part in the line's re-construction</a> in 2019. With the pandemic ushering remote-work, <a href="https://www.smdailyjournal.com/news/local/san-mateo-county-dumbarton-project-gets-a-new-offer/article_13858baa-ee60-11ea-9204-c39512f7ffb8.html">Facebook changed its mind</a>.
+                </p>
+                <p>
+                  The <a href="https://www.caltrain.com/main.html">Caltrain</a> travels from San Francisco to San Jose through the city centers of Silicon Valley. Originally owned by Union Pacific and operated with diesel trains, Caltrain will be <a href="https://calmod.org/">electrified</a> in 2022 with trains from Stadler.
+                </p>
+                <p>
+                  The only autonomous train line is the <a href="https://www.bart.gov/grandopening">automated-guideway transit</a> line between Coliseum station (BART) and Oakland International Airport (gray, center of map).
+                </p>
+              </div>
+            </div>
+
+
+          <div class="row">
+            <div class="column-full">
+              <img src="https://i.imgur.com/oM4WPPA.png"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/ZgHAwc4.png"/>
+              <p>San Francisco</p>
+            </div>
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/rYcYxzH.png"/>
+              <p>Sacramento</p>
+            </div>
+            <div class="column" style="text-align: center">
+              <img src="https://i.imgur.com/pBqscPO.png"/>
+              <p>San Jose</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <footer class="footer" style="text-align: center">
+      &#169; 2020 <a href="https://www.emersonhsieh.com">Emerson Hsieh</a>
+    </footer>
+</body>
+</html>
+
