@@ -71,6 +71,13 @@
           background-image: url("./images/image_00001.png");
         }
       }
+
+      .vr-boy-tears {
+        position: absolute;
+        z-index: 1;
+        bottom: -75%;
+        right: 45.6%;
+      }
     </style>
 </head>
 
@@ -298,9 +305,10 @@
       <div class="container" style="padding-top: 36px;padding-bottom: 36px;">
         <div class="row">
           <div class="col mx-auto" style="max-width: 648px;text-align:center;">
-            <p>
-              <img src="./images/image_vr_boy.jpg" width=90% style="filter:FlipH."/>
-            </p>
+            <div style="position:relative;display:inline">
+              <img src="./images/image_vr_boy.jpg" width=90%/>
+              <img src="./images/image_vr_boy_tears.png" width=15% class="vr-boy-tears"/>
+            </div>
           </div>
         </div>
       </div>
